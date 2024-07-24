@@ -1,0 +1,22 @@
+.github-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.github-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.github-card p {
+    margin: 8px 0;
+}
+
+.github-card a {
+    color: #0366d6;
+    text-decoration: none;
+}

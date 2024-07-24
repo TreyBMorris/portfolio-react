@@ -6,6 +6,7 @@ import About from "./About.tsx";
 import MobileView from "./MobileView.tsx";
 import { useMediaQuery } from 'react-responsive';
 import Footer from "./Footer.tsx";
+import Projects from "./Projects.tsx";
 function App() {
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   return (
@@ -15,6 +16,7 @@ function App() {
               <Route path = "/" element={isMobile ? <MobileView /> : <Trey />}/>
               <Route path="/about" element={<About />} />
               <Route path="/longscroll" element={<MobileView />} />
+              <Route path="/projects" element={<Projects/>} />
           </Routes>
           <Footer/>
       </Router>

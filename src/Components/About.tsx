@@ -7,11 +7,11 @@ const About: React.FC = () => {
                 <div className="row">
                     <div className="col text-center">
                         <br/>
-                        <h2>About me:</h2>
+                        <h2>About me🤙</h2>
                         <p className="small-width">I'm a Computer Science Student at Kennesaw State University.
                             Currently, I am a Software Engineering Intern at Zebra Technologies.
                             My main interest is in creating full-stack web applications.</p>
-                        <h2>⌨️ Current Skill Set:</h2>
+                        <h2>Current Skill Set⌨️</h2>
                         <p>Front-end - JavaScript, TypeScript, HTML/CSS, Angular, React</p>
                         <p>Back-end - .NET, Java Spring Boot, NestJS, MSSQL, MongoDB</p>
                         <p>DevOps - Unit Testing with NUnit and JUnit, GitHub, Linux Experience, Docker</p>
