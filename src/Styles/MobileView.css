@@ -1,0 +1,19 @@
+.scrollable-container {
+    height: 80vh;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@media (max-width: 480px) {
+    .scrollable-container {
+        height: 60vh;
+    }
+}
