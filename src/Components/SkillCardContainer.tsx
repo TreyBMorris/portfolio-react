@@ -2,8 +2,6 @@ import React from 'react';
 import AboutCard from './AboutCard';
 
 const AboutCardContainer: React.FC = () => {
-
-
     return (
                 <div className="container">
                     <div className="row">
@@ -51,7 +49,6 @@ const AboutCardContainer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-
     );
 };
 

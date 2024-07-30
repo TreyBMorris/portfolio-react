@@ -8,9 +8,9 @@ const About: React.FC = () => {
                 <div className="row">
                     <div className="col text-center">
                         <h2>About me🤙</h2>
-                        <p className="small-width">I'm a Computer Science Student at Kennesaw State University.
+                        <h5 className="small-width">I'm a Computer Science Student at Kennesaw State University.
                             Currently, I am a Software Engineering Intern at Zebra Technologies. My main interest is in
-                            creating full-stack web applications.</p>
+                            creating full-stack web applications.</h5>
                     </div>
                 </div>
                 <div className="row">
