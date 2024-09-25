@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
                     <div className="col text-center">
                         <br/>
                         <h2>Previous Projects🔨</h2>
-                        <GithubCard username="TreyBMorris" repo="CalculatorSpringBoot"/>
+                        <GithubCard username="TreyBMorris" repo="portfolio-react"/>
                         <GithubCard username="TreyBMorris" repo="CalculatorEngine"/>
                         <GithubCard username="TreyBMorris" repo="Calculator-Angular"/>
                     </div>

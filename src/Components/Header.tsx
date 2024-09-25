@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 const Header: React.FC = () => {
     return (
         <>
@@ -7,6 +7,7 @@ const Header: React.FC = () => {
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">Trey Morris</a>
                 </div>
+                {/*
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
@@ -20,6 +21,7 @@ const Header: React.FC = () => {
                         </li>
                     </ul>
                 </div>
+                */}
             </nav>
         </>
     );

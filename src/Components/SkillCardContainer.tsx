@@ -7,24 +7,24 @@ const AboutCardContainer: React.FC = () => {
                     <div className="row">
                         <div className="d-flex flex-wrap">
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-                                <AboutCard title="Java"
-                                           image='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-                                           alt='JavaLogo'/>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-                                <AboutCard title="Spring"
-                                           image='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg'
-                                           alt='JavaSpring'/>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
                                 <AboutCard title=".NET"
                                            image='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg'
                                            alt='CSharpLogo'/>
                             </div>
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
+                                <AboutCard title="Linux"
+                                           image='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg'
+                                           alt='LinuxLogo'/>
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
                                 <AboutCard title="Angular"
                                            image='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg'
                                            alt='AngularLogo'/>
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
+                                <AboutCard title="Blazor"
+                                           image='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg'
+                                           alt='BlazorLogo'/>
                             </div>
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
                                 <AboutCard title="React"

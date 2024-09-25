@@ -3,7 +3,6 @@ import SkillCardContainer from "./SkillCardContainer.tsx";
 const About: React.FC = () => {
     return (
         <>
-            <br/>
             <div className="container">
                 <div className="row">
                     <div className="col text-center">
